@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Upload Page
+{% endblock %}
+
+{% block main %}
+
+    {% if image_path %}
+    <img src="{{ image_path }}" alt="Uploaded Image" class="uploaded-image">
+    {% else %}
+    <p>No image uploaded.</p>
+    {% endif %}
+
+{% endblock %}

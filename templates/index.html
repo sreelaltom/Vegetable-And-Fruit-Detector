@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home Page
+{% endblock %}
+
+{% block main %}
+    <section class="container ">
+        <div class="center">
+            <div class="upload-text">
+                Drag and drop to upload files
+            </div>
+            <form action="/upload" method="post" enctype="multipart/form-data">    
+                <input class="input" type="file" name="file" accept="image/*">
+                <button class="button" type="submit">
+                    <img src="/static/Images/cloud-removebg-preview.png" class="upload-icon">
+                    <div>Upload</div>
+                </button>
+                <!-- <input class="button" type="submit"> -->
+            </form>
+        </div>
+    </section>
+{% endblock %}
+
