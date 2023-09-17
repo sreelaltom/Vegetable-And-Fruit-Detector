@@ -6,6 +6,18 @@
 
 This is a Flask web application that allows users to upload images, which are then processed to predict the content of the image. The application specifically predicts the type of vegetable depicted in the uploaded image.
 
+## Project Files
+
+- **app.py**: The main Python script containing the Flask application. It defines routes, views.
+
+- **helper.py**: Code related to the machine learning model used for image prediction. It loads the model and preprocesses images for prediction.
+
+- **templates**: HTML templates used for rendering web pages, including the home page.
+
+- **static**: Contains static assets such as CSS stylesheets and uploaded images
+
+- **Sample Image**: Contain a few image for testing.
+
 ### Recognizable Fruits and Vegetables
 
 - Apple
@@ -74,7 +86,7 @@ Follow these steps to set up your Flask application:
 1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/your-username/your-flask-app.git
+    git clone https://github.com/neevan0842/Vegetable-And-Fruit-Detector.git
     ```
 
 2. **Change Directory**:
