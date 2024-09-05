@@ -6,7 +6,7 @@
 
 This is a Flask web application that allows users to upload images, which are then processed to predict the content of the image. The application specifically predicts the type of vegetable depicted in the uploaded image.
 
-## Project Files
+## Project Files.
 
 - **app.py**: The main Python script containing the Flask application. It defines routes, views.
 
